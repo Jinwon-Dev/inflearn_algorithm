@@ -6,7 +6,7 @@ public class Main {
     public String solution(String str) {
         String answer = "";
         
-        for (char x : str.toCharArray()) { // 문자를 문자열로 변경
+        for (char x : str.toCharArray()) { // 문자열을 char 타입 배열로 변경
             if (Character.isLowerCase(x)) { // 소문자 일시
                 answer += Character.toUpperCase(x); // 대문자로 변경
             } else {
